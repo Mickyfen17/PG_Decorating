@@ -1,3 +1,93 @@
+/*div {
+  border: 1px solid red;
+}*/
+
+/*Navbar coloring and link centering on collapse*/
+.my-nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+/*Navbar border removal*/
+.navbar-fixed-top {
+    border-width: 0px;
+}
+/*Navbar links styling, hover & focus color*/
+.navlink {
+  padding-top: 14px;
+  padding-right: 10px;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  border-radius: 4px;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    background: none;
+}
+/*Navbar brand color*/
+.navbar-brand {
+  color: white !important;
+  font-size: 24px;
+}
+/*Navbar nav list and a links color*/
+.navbar-nav > li > a {
+  color: white !important;
+}
+/*Navbar collapse nav border color*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: white;
+}
+/*Navbar Menu down border color*/
+.navbar-toggle {
+ border-color: white !important;
+}
+/*Navbar toggle hover color and when selected color*/
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: black;
+}
+/*Navbar toggle line  color*/
+.icon-bar {
+  background-color: white !important;
+}
+/*Styling for Main header*/
+#main-header {
+  font-family: 'Alfa Slab One', cursive;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 50px;
+}
+/*Styling for Home id*/
+#Home {
+  height: 600px;
+  background: url(http://i115.photobucket.com/albums/n282/mickyfen17/paint_home.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /*transform: rotate(0);*/
+}
+/*Styling for About id*/
+#About {
+  height: 400px;
+  background: white;
+  background-size: cover;
+}
+/*Styling for Services id*/
+#Services {
+  height: 400px;
+  background: white;
+  background-size: cover;
+}
+/*Styling for Contact id*/
+#Contact {
+  height: 400px;
+  background: white;
+  background-size: cover;
+}
+
 body {
-  background-color: red;
+  padding-top: 0px;
+  background-color: white;
+  color: black;
 }
