@@ -75,7 +75,7 @@
 }
 /*Styling for Services id*/
 #Services {
-  height: 400px;
+  /*height: 400px;*/
   background: white;
   background-size: cover;
 }
@@ -90,4 +90,8 @@ body {
   padding-top: 0px;
   background-color: white;
   color: black;
+}
+
+.logo {
+  width: 150px;
 }
