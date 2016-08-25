@@ -53,6 +53,7 @@
   font-family: 'Alfa Slab One', cursive;
   color: rgba(0, 0, 0, 0.8);
   font-size: 50px;
+  margin-top: 50px;
 }
 /*Styling for Home id*/
 #Home {
@@ -94,4 +95,8 @@ body {
 
 .logo {
   width: 150px;
+}
+
+#Johnstones {
+  padding-top: 18px;
 }
