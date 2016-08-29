@@ -71,21 +71,32 @@
 /*Styling for About id*/
 #About {
   height: 400px;
-  background: white;
+  background: #e0eeee;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  margin-top: -10px;
 }
 /*Styling for Services id*/
 #Services {
   /*height: 400px;*/
-  background: white;
+  background: #e0eeee;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  margin-top: -10px;
 }
 /*Styling for Contact id*/
 #Contact {
   height: 400px;
-  background: white;
+  background: #e0eeee;
   background-size: cover;
-  overflow: visible;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  margin-top: -10px;
 }
 
 body {
@@ -94,10 +105,46 @@ body {
   color: black;
 }
 
+/*logo standard size*/
 .logo {
   width: 150px;
 }
-
+/*Johnstones logo extra padding to make inline*/
 #Johnstones {
   padding-top: 18px;
+  padding-bottom: 25px;
 }
+
+/*Border styling & start position*/
+#Bord1, #Bord2, #Bord3 {
+  background-color: #76eec6;
+  height: 10px;
+  border-radius: 10px;
+  width: 0px;
+  max-width: 100%;
+  position: absolute;
+  margin-top: -14px;
+  z-index: 1;
+}
+
+/*Testing*/
+#test {
+  transition: all 1.5s;
+  background: black;
+  height: 200px;
+  width: 200px;
+  color: red;
+  font-size: 25px;
+}
+
+#test:hover {
+  transition: all 1.5s;
+  border-radius: 25px;
+  font-size: 50px;
+  width: 300px;
+  height: 300px;
+}
+
+
+
+
